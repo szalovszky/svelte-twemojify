@@ -5,7 +5,7 @@ your component and all emojis will become consistent across all platforms.
 
 ## Usage
 
-```javascript
+```svelte
 <script>
   import { twemojify } from 'svelte-twemojify';
 </script>
