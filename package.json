@@ -1,0 +1,32 @@
+{
+  "name": "svelte-twemojify",
+  "version": "1.0.0",
+  "description": "An updated, simple Svelte wrapper for twemoji.",
+  "main": "src/index.js",
+  "files": [
+    "src/"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/szalovszky/svelte-twemojify.git"
+  },
+  "bugs": {
+    "url": "https://github.com/szalovszky/svelte-twemojify/issues"
+  },
+  "scripts": {},
+  "homepage": "https://github.com/szalovszky/svelte-twemojify",
+  "author": "szalovszky",
+  "license": "MIT",
+  "keywords": [
+    "twemoji",
+    "emoji",
+    "parser",
+    "image",
+    "twitter",
+    "svelte",
+    "sveltekit"
+  ],
+  "dependencies": {
+    "@discordapp/twemoji": "^15.1.0"
+  }
+}
