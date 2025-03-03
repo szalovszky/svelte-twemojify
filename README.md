@@ -5,6 +5,8 @@ your component and all emojis will become consistent across all platforms.
 
 ## Usage
 
+### Basic Usage
+
 ```svelte
 <script>
   import { twemojify } from 'svelte-twemojify';
@@ -14,6 +16,24 @@ your component and all emojis will become consistent across all platforms.
   This emoji will be transformed into an image: ✨.
 </p>
 ```
+
+### Advanced Usage
+
+You can also specify how twemoji will process the contents using a configuration object or a callback function.
+
+Check out the [options documentation](https://github.com/discord/twemoji#object-as-parameter) for more details.
+
+```svelte
+<script>
+  import { twemojify } from 'svelte-twemojify';
+</script>
+
+<p use:twemojify={{ className: 'twemojify-emoji' }}>
+  This emoji will be transformed into an image: ✨.
+</p>
+```
+
+For additional tips and best practices, take a look [here](https://github.com/discord/twemoji#tips).
 
 ## Installation
 
