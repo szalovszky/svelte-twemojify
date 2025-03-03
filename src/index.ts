@@ -1,10 +1,10 @@
-import twemoji from '@discordapp/twemoji';
+import twemoji, { ParseCallback, TwemojiOptions } from '@discordapp/twemoji';
 
-const twemojify = function (node: HTMLElement) {
-  twemoji.parse(node);
+const twemojify = function (node: HTMLElement, options?: TwemojiOptions | ParseCallback) {
+  twemoji.parse(node, options);
   return {
     update() {
-      twemoji.parse(node);
+      twemoji.parse(node, options);
     },
   };
 };
